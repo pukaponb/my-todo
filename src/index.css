@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.drive-in-wrap {
+  overflow: hidden;
+  position: absolute;
+  height: 100vh;
+  min-height: 55rem;
+  width: 100%;
+  min-width: 36rem;
+  top: 0;
+  left: 0;
+  z-index: -10000;
+}
+.drive-in-media {
+    position: absolute;
+}
+
+.drive-in-media video,
+.drive-in-media img {
+    -webkit-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+    position: relative;
+}
